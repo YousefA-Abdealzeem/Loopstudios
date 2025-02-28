@@ -382,7 +382,7 @@ header::before {
 @media (max-width: 391px){
     .titlehome{
         height: 280px !important;
-        /* width: 300px !important; */
+        width: 350px !important;
         font-size: 38px !important;
         border: solid 3px white;
         margin-left: 10px !important;
