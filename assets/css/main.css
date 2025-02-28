@@ -5,7 +5,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
-    background-image: url(/assets/images/desktop/image-hero.jpg);
+    background-image: url(/assets/images/desktop/image-from-above.jpg);
     position: relative;
     background-position: center;
     background-size: cover;
@@ -34,11 +34,12 @@ header::before {
     margin-top: 50px !important;
     margin-left: 200px !important;
     height: 300px;
-    width: 550px;
+    width: 510px;
     font-size: 50px;
     border: solid 3px white;
     padding: 25px;
     color: white;
+    letter-spacing: 2px;
 }
 
 .nav-item .nav-link {
@@ -85,20 +86,20 @@ header::before {
 }
 
 .main-section {
-    padding: 100px 0;
+    padding: 90px 0;
     text-align: center;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
+    padding: 30px 20px;
 }
 
 
 .header h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
 
 .btn-see-all {
@@ -106,14 +107,15 @@ header::before {
     width: 150px;
     border: 1px solid black;
     background: transparent;
-    font-size: 1rem;
+    font-size: 12px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    letter-spacing: 4px;
 }
 
 .btn-see-all:hover {
     background: black;
-    color: white;
+    color: white !important;
 }
 
 .image-grid {
@@ -386,6 +388,12 @@ header::before {
         margin-left: 30px !important;
         padding-top: 50px !important;
         font-size: 40px;
+    }
+    main{
+        padding: ;
+    }
+    .main-section{
+        padding-top: 1px !important;
     }
 }
 
