@@ -5,8 +5,8 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
-    position: relative;
     background-image: url(/assets/images/desktop/image-hero.jpg);
+    position: relative;
     background-position: center;
     background-size: cover;
     height: 90vh;
