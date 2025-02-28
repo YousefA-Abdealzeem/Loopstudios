@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    position: relative;
+    background-image: url(/assets/images/desktop/image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.navbar, .titlehome {
+    position: relative;
+    z-index: 2;
+}
+
+.titlehome {
+    margin-top: 50px !important;
+    margin-left: 200px !important;
+    height: 300px;
+    width: 550px;
+    font-size: 50px;
+    border: solid 3px white;
+    padding: 25px;
+    color: white;
+}
+
+.nav-item .nav-link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; 
+    color: white !important;
+}
+.nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #ffffffb7;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-item .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.custom-card {
+    top: 50%;
+    right: 0;
+    position: absolute !important;
+}
+.our-main{
+    margin-top: 200px !important;
+    margin-bottom: 60px !important;
+}
+.main-content{
+    letter-spacing: 2px;
+}
+
+.mian-cont{
+    padding-left: 10px !important;
+}
+
+.frist-images,.scecond-images {
+    filter: brightness(75%);
+}
+
+.main-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn-see-all {
+    padding: 10px 20px;
+    width: 150px;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-see-all:hover {
+    background: black;
+    color: white;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+}
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-box span {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.image-box:hover img {
+    filter:opacity(40%);
+}
+.image-box img{
+    transition: all 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .image-box span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+        height: 120pc;
+    }
+
+    .image-box span {
+        font-size: 1rem;
+    }
+    .footer-right {
+        align-items: center;
+        text-align: center;
+    }
+    .col-lg-6 img{
+        width: 100%;
+    }
+    .custom-card {
+        position: unset !important;
+    }
+    header{
+        height: 100vh;
+    }
+    .h2{
+        text-align: center;
+        padding-bottom: 20px;
+        letter-spacing: 4px;
+    }
+    .pragraph{
+        text-align: center;
+    }
+    .titlehome{
+        height: 300px !important;
+        width: 450px !important;
+        font-size: 50px;
+        border: solid 3px white;
+        margin-left: 30px !important;
+    }
+    .btn-see-all{
+        position: absolute;
+        margin-top: 2080px;
+        width: 50%;
+        letter-spacing: 5px;
+    }
+    .footermain{
+        margin-top: 150px !important;
+        height: auto;
+    }
+    .footermain .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+        margin-top: 30px !important;
+    }
+}
+
+
