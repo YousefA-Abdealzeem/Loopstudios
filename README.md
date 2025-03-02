@@ -7,7 +7,7 @@
 ✅ Bootstrap<br>
 <h2>📦 Installation & Setup</h2>
 https://github.com/YousefA-Abdealzeem/Loopstudios.git<br>
-https://yousefa-abdealzeem.github.io/Loopstudio/<br>
+https://yousefa-abdealzeem.github.io/Loopstudios/<br>
 <h2>📞 Contact</h2>
 Email: yousef227d@gmail.com<br>
 GitHub: https://github.com/YousefA-Abdealzeem<br>
