@@ -6,8 +6,8 @@
 ✅ CSS3<br>
 ✅ Bootstrap<br>
 <h2>📦 Installation & Setup</h2>
-https://github.com/YousefA-Abdealzeem/movies.git<br>
-https://yousefa-abdealzeem.github.io/movies/<br>
+https://github.com/YousefA-Abdealzeem/Loopstudios.git<br>
+https://yousefa-abdealzeem.github.io/Loopstudio/<br>
 <h2>📞 Contact</h2>
 Email: yousef227d@gmail.com<br>
 GitHub: https://github.com/YousefA-Abdealzeem<br>
